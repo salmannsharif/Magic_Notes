@@ -77,7 +77,7 @@ function deleteNote(index) {
 }
 
 
-// for deleting the notes 
+// For searching the notes 
 
 let search=document.getElementById('searchTxt');
 search.addEventListener('input', ()=>{
