@@ -1,8 +1,6 @@
 console.log('This is Magic Notes ')
 showNotes();
 
-// If the user add the note , then add it to the localStorage 
-
 let addBtn = document.getElementById('addBtn');
 addBtn.addEventListener('click', (e) => {
 
@@ -79,6 +77,7 @@ function deleteNote(index) {
 }
 
 
+// for deleting the notes 
 
 let search=document.getElementById('searchTxt');
 search.addEventListener('input', ()=>{
